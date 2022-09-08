@@ -13,7 +13,6 @@ RSpec.describe 'Merchants Index page', :vcr do
       within "#merc-#{m1.id}" do
         expect(page).to have_content("Schroeder-Jerde")
       end
-
       within "#merc-#{m2.id}" do
         expect(page).to have_content("Klein, Rempel and Jones")
       end
