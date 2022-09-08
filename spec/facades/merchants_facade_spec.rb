@@ -9,4 +9,13 @@ RSpec.describe 'MerchantsFacade', :vcr do
       expect(merchants).to be_all Merchant
     end
   end
+
+  describe 'single merchant' do
+    it 'retreives a single merchant' do
+      merchant = MerchantsFacade.merchant(1)
+
+      expect(merchant).to be_a Merchant
+      expect(merchant.id).to eq(1)
+    end
+  end
 end

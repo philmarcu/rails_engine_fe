@@ -8,6 +8,8 @@ RSpec.describe 'MerchantService', :vcr do
     it 'retreives all merchants and parses response' do
       expect(parsed_json).to be_a Hash
       expect(merchants).to be_a Array
+      expect(merchants.size).to eq(100)
+      binding.pry
       
       merchants.each do |m|
         expect(m).to be_a Hash
@@ -21,6 +23,15 @@ RSpec.describe 'MerchantService', :vcr do
         name = m[:attributes][:name]
         expect(name).to be_a(String)
       end
+    end
+
+    it 'retreives a single merchant' do
+      parsed = MerchantService.merchant(1)
+      name = parsed[:data][:attributes][:name]
+
+      expect(parsed.size).to eq(1)
+      expect(parsed[:data]).to be_a Hash
+      expect(name).to be_a String
     end
   end
 end
