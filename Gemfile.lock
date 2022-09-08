@@ -235,10 +235,6 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
-<<<<<<< HEAD
-  arm64-darwin-20
-=======
->>>>>>> c577f76e064fd94ebd37f206ee85abae1e4630fb
   arm64-darwin-21
 
 DEPENDENCIES
