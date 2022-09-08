@@ -17,5 +17,14 @@ RSpec.describe 'Merchants Index page', :vcr do
         expect(page).to have_content("Klein, Rempel and Jones")
       end
     end
+
+    it 'has a link to a merchants show' do
+      visit api_v1_merchants_path
+      
+      within "#merc-#{m1.id}" do
+        click_link "Schroeder-Jerde"
+        expect(page).to have_current_path(api_v1_merchant_path(m1.id))
+      end
+    end
   end
 end
