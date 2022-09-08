@@ -1,13 +1,26 @@
 require 'rails_helper'
 
-RSpec.describe 'MerchantService' do
+RSpec.describe 'MerchantService', :vcr do
   context 'happy path' do
-    it 'retreives all merchants and parses response', :vcr do
-      parsed_json = MerchantService.all_merchants
-      merchant = parsed_json[:data][0]
+    let(:parsed_json) { MerchantService.all_merchants }
+    let(:merchants) { parsed_json[:data] }
 
+    it 'retreives all merchants and parses response' do
       expect(parsed_json).to be_a Hash
-      expect(parsed_json[:data]).to be_a Array
+      expect(merchants).to be_a Array
+      
+      merchants.each do |m|
+        expect(m).to be_a Hash
+        expect(m).to have_key(:id)
+        expect(m).to have_key(:attributes)
+
+        expect(m[:id]).to be_a(String)
+        expect(m[:type]).to be_a(String)
+        expect(m[:type]).to eq("merchant")
+
+        name = m[:attributes][:name]
+        expect(name).to be_a(String)
+      end
     end
   end
 end
