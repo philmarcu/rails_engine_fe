@@ -1,0 +1,6 @@
+<h2>Merchants Index</h2>
+<% @merchants.each do |m| %>
+  <div id="merc-<%= m.id %>">
+    <%= m.name %>
+  </div>
+<% end %>
