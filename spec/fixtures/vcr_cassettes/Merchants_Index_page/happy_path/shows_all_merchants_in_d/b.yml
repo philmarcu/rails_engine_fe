@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 996b67be-235f-4a2e-9189-6ad44b883fd4
+      - a117704d-8565-4ae6-9b47-ffbef83ef628
       X-Runtime:
-      - '0.003725'
+      - '0.013590'
       Transfer-Encoding:
       - chunked
     body:
@@ -96,7 +96,7 @@ http_interactions:
         Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
         Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
         Inc"}}]}'
-  recorded_at: Fri, 09 Sep 2022 00:26:45 GMT
+  recorded_at: Fri, 09 Sep 2022 00:50:46 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants
@@ -122,9 +122,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a006c03d-bd78-4cee-85ab-8035e72136b4
+      - 1de23d6f-c8a1-44e5-8bdf-a7c8719ad300
       X-Runtime:
-      - '0.003773'
+      - '0.014161'
       Transfer-Encoding:
       - chunked
     body:
@@ -193,7 +193,7 @@ http_interactions:
         Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
         Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
         Inc"}}]}'
-  recorded_at: Fri, 09 Sep 2022 00:26:45 GMT
+  recorded_at: Fri, 09 Sep 2022 00:50:46 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants
@@ -219,9 +219,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 8612921f-bfb9-4791-af56-2ed907f1f1c3
+      - a5cf0a01-f6a0-41f7-a0a3-f5c0031d4e17
       X-Runtime:
-      - '0.002915'
+      - '0.008345'
       Transfer-Encoding:
       - chunked
     body:
@@ -290,5 +290,5 @@ http_interactions:
         Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
         Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
         Inc"}}]}'
-  recorded_at: Fri, 09 Sep 2022 00:26:45 GMT
+  recorded_at: Fri, 09 Sep 2022 00:50:46 GMT
 recorded_with: VCR 6.1.0
