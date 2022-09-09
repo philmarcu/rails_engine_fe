@@ -25,13 +25,13 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f7fb403e-5e7e-4473-8522-25aa1d791c50
+      - 17d1c2be-4c57-4fa2-baef-a4b19e469db7
       X-Runtime:
-      - '0.004134'
+      - '0.001191'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Fri, 09 Sep 2022 00:51:08 GMT
+  recorded_at: Fri, 09 Sep 2022 01:11:24 GMT
 recorded_with: VCR 6.1.0

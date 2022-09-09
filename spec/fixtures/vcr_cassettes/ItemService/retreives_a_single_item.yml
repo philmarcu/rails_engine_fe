@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - cc4853b4-d954-4c51-9b78-88751b2dd228
+      - e3b36ab9-2b6e-4aba-8527-a49034fe247f
       X-Runtime:
-      - '0.002842'
+      - '0.001219'
       Transfer-Encoding:
       - chunked
     body:
@@ -36,5 +36,5 @@ http_interactions:
         labore quia harum dicta eum consequatur qui. Corporis inventore consequatur.
         Illum facilis tempora nihil placeat rerum sint est. Placeat ut aut. Eligendi
         perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}}'
-  recorded_at: Fri, 09 Sep 2022 00:50:48 GMT
+  recorded_at: Fri, 09 Sep 2022 01:11:24 GMT
 recorded_with: VCR 6.1.0
