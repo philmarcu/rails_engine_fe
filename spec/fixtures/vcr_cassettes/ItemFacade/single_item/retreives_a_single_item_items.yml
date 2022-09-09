@@ -2,38 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/items/1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.5.2
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 404
-      message: Not Found
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-      X-Request-Id:
-      - 14b42a14-88d8-4b1e-bda0-88bc870f8bb2
-      X-Runtime:
-      - '0.001527'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"message":"Couldn''t find Item with ''id''=1"}'
-  recorded_at: Fri, 09 Sep 2022 01:05:44 GMT
-- request:
-    method: get
     uri: http://localhost:3000/api/v1/items/179
     body:
       encoding: US-ASCII
@@ -57,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7eb865e4-229f-46db-94f3-a1d01a0a29d7
+      - 8d489afc-903a-4a02-83c0-12e9fd7a4ed3
       X-Runtime:
-      - '0.003733'
+      - '0.001297'
       Transfer-Encoding:
       - chunked
     body:
@@ -68,79 +36,5 @@ http_interactions:
         labore quia harum dicta eum consequatur qui. Corporis inventore consequatur.
         Illum facilis tempora nihil placeat rerum sint est. Placeat ut aut. Eligendi
         perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}}'
-  recorded_at: Fri, 09 Sep 2022 01:08:37 GMT
-- request:
-    method: get
-    uri: http://localhost:3000/api/v1/items/179
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.5.2
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"e20580432f5bd14796fb93598a977f6c"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 11b83043-f403-43fd-a456-c0bdb6d32501
-      X-Runtime:
-      - '0.002509'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":"179","type":"item","attributes":{"name":"Item Qui Veritatis","description":"Totam
-        labore quia harum dicta eum consequatur qui. Corporis inventore consequatur.
-        Illum facilis tempora nihil placeat rerum sint est. Placeat ut aut. Eligendi
-        perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}}'
-  recorded_at: Fri, 09 Sep 2022 01:11:19 GMT
-- request:
-    method: get
-    uri: http://localhost:3000/api/v1/items/179
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.5.2
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"e20580432f5bd14796fb93598a977f6c"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 5ec1f217-296b-4e5f-a465-b74e449c8f9b
-      X-Runtime:
-      - '0.003381'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":"179","type":"item","attributes":{"name":"Item Qui Veritatis","description":"Totam
-        labore quia harum dicta eum consequatur qui. Corporis inventore consequatur.
-        Illum facilis tempora nihil placeat rerum sint est. Placeat ut aut. Eligendi
-        perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}}'
-  recorded_at: Fri, 09 Sep 2022 01:11:23 GMT
+  recorded_at: Fri, 09 Sep 2022 01:31:38 GMT
 recorded_with: VCR 6.1.0

@@ -1,6 +1,6 @@
 <h2>Merchants Index</h2>
 <% @merchants.each do |m| %>
   <div id="merc-<%= m.id %>">
-    <%= link_to m.name, "/api/v1/merchants/#{m.id}", method: :get, local: true %>
+    <%= link_to m.name, api_v1_merchant_path(m.id), method: :get, local: true %>
   </div>
 <% end %>
