@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/merchants/1
+    uri: http://localhost:3000/api/v1/items/179
     body:
       encoding: US-ASCII
       string: ''
@@ -21,17 +21,20 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"bc1fd1230d92d0b6bb211d1985ff7fd3"
+      - W/"e20580432f5bd14796fb93598a977f6c"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 623b5c06-e8d2-4df5-931f-5d676a044629
+      - 661fed22-895a-4aba-8bcb-9c5a1a3027a4
       X-Runtime:
-      - '0.001351'
+      - '0.001354'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Fri, 09 Sep 2022 01:31:38 GMT
+      string: '{"data":{"id":"179","type":"item","attributes":{"name":"Item Qui Veritatis","description":"Totam
+        labore quia harum dicta eum consequatur qui. Corporis inventore consequatur.
+        Illum facilis tempora nihil placeat rerum sint est. Placeat ut aut. Eligendi
+        perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}}'
+  recorded_at: Fri, 09 Sep 2022 01:31:39 GMT
 recorded_with: VCR 6.1.0

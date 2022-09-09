@@ -1,0 +1,7 @@
+<h2>Items Index</h2>
+
+<% @items.each do |i| %>
+  <div id="item-<%= i.id %>">
+    <%= link_to i.name, api_v1_item_path(i.id), method: :get, local: true %>
+  </div>
+<% end %>
