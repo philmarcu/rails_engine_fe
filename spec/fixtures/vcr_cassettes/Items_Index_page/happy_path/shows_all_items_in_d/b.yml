@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3f358d29-455c-47b2-b128-a49dcab82478
+      - c8eede33-ac2e-489a-9ff1-3172ef889c19
       X-Runtime:
-      - '0.086022'
+      - '0.083143'
       Transfer-Encoding:
       - chunked
     body:
@@ -6992,7 +6992,7 @@ http_interactions:
         Qui Veritatis","description":"Totam labore quia harum dicta eum consequatur
         qui. Corporis inventore consequatur. Illum facilis tempora nihil placeat rerum
         sint est. Placeat ut aut. Eligendi perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}]}'
-  recorded_at: Fri, 09 Sep 2022 01:31:38 GMT
+  recorded_at: Fri, 09 Sep 2022 01:57:45 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items
@@ -7018,9 +7018,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c5dd09d5-0d62-4b44-8d6a-706cac7e11b7
+      - e61b0c49-a1e8-41a0-907d-070a9783d392
       X-Runtime:
-      - '0.111162'
+      - '0.120311'
       Transfer-Encoding:
       - chunked
     body:
@@ -13985,7 +13985,7 @@ http_interactions:
         Qui Veritatis","description":"Totam labore quia harum dicta eum consequatur
         qui. Corporis inventore consequatur. Illum facilis tempora nihil placeat rerum
         sint est. Placeat ut aut. Eligendi perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}]}'
-  recorded_at: Fri, 09 Sep 2022 01:31:38 GMT
+  recorded_at: Fri, 09 Sep 2022 01:57:45 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items
@@ -14011,9 +14011,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3f337a97-7d7a-4a48-938d-0ac5b2f34dd1
+      - 515145d4-17db-45f2-9510-6df8c22dc8c6
       X-Runtime:
-      - '0.083081'
+      - '0.076588'
       Transfer-Encoding:
       - chunked
     body:
@@ -20978,5 +20978,5 @@ http_interactions:
         Qui Veritatis","description":"Totam labore quia harum dicta eum consequatur
         qui. Corporis inventore consequatur. Illum facilis tempora nihil placeat rerum
         sint est. Placeat ut aut. Eligendi perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}]}'
-  recorded_at: Fri, 09 Sep 2022 01:31:38 GMT
+  recorded_at: Fri, 09 Sep 2022 01:57:45 GMT
 recorded_with: VCR 6.1.0

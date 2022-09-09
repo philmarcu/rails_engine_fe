@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9c2c4fad-6a52-4775-a128-94e8ad5e2cd8
+      - 95c32eb2-20b6-438b-9ad7-c77b79c235f5
       X-Runtime:
-      - '0.116071'
+      - '0.080450'
       Transfer-Encoding:
       - chunked
     body:
@@ -6992,7 +6992,7 @@ http_interactions:
         Qui Veritatis","description":"Totam labore quia harum dicta eum consequatur
         qui. Corporis inventore consequatur. Illum facilis tempora nihil placeat rerum
         sint est. Placeat ut aut. Eligendi perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}]}'
-  recorded_at: Fri, 09 Sep 2022 01:31:39 GMT
+  recorded_at: Fri, 09 Sep 2022 01:57:46 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items
@@ -7018,9 +7018,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f12fec89-f0e0-4393-b384-82590133406e
+      - 5d771e22-e141-4e00-9027-4a3fb520ce4d
       X-Runtime:
-      - '0.120149'
+      - '0.080155'
       Transfer-Encoding:
       - chunked
     body:
@@ -13985,7 +13985,7 @@ http_interactions:
         Qui Veritatis","description":"Totam labore quia harum dicta eum consequatur
         qui. Corporis inventore consequatur. Illum facilis tempora nihil placeat rerum
         sint est. Placeat ut aut. Eligendi perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}]}'
-  recorded_at: Fri, 09 Sep 2022 01:31:39 GMT
+  recorded_at: Fri, 09 Sep 2022 01:57:46 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items/4
@@ -14011,9 +14011,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 13ec3629-d689-425a-bb9b-c45354a75291
+      - b08ad896-d7b4-4802-b13a-e25d9fe1be0f
       X-Runtime:
-      - '0.001274'
+      - '0.001291'
       Transfer-Encoding:
       - chunked
     body:
@@ -14021,5 +14021,5 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Fri, 09 Sep 2022 01:31:39 GMT
+  recorded_at: Fri, 09 Sep 2022 01:57:46 GMT
 recorded_with: VCR 6.1.0

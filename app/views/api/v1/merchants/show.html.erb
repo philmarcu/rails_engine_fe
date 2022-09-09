@@ -4,6 +4,6 @@
 
 <% @items.each do |i| %>
   <div id="item-<%= i.id %>">
-    <p><%= i.name %></p>
+    <p><%= link_to i.name, api_v1_item_path(i.id), method: :get, local: true %></p>
   </div>
 <% end %>

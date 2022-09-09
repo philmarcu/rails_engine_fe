@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 87d30948-f80a-4b6c-b1f7-2ae0d53910cd
+      - 5af6995b-d5ef-49c8-a1d5-16b5593625cf
       X-Runtime:
-      - '0.005188'
+      - '0.001363'
       Transfer-Encoding:
       - chunked
     body:
@@ -36,7 +36,7 @@ http_interactions:
         labore quia harum dicta eum consequatur qui. Corporis inventore consequatur.
         Illum facilis tempora nihil placeat rerum sint est. Placeat ut aut. Eligendi
         perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}}'
-  recorded_at: Fri, 09 Sep 2022 01:31:33 GMT
+  recorded_at: Fri, 09 Sep 2022 01:57:46 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items/179
@@ -62,9 +62,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 84826287-7827-4665-84ca-c8b1a991dbbf
+      - 44e5bf70-716a-4e89-8756-e2fdc5aa6bff
       X-Runtime:
-      - '0.003442'
+      - '0.001356'
       Transfer-Encoding:
       - chunked
     body:
@@ -73,5 +73,5 @@ http_interactions:
         labore quia harum dicta eum consequatur qui. Corporis inventore consequatur.
         Illum facilis tempora nihil placeat rerum sint est. Placeat ut aut. Eligendi
         perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}}'
-  recorded_at: Fri, 09 Sep 2022 01:31:33 GMT
+  recorded_at: Fri, 09 Sep 2022 01:57:46 GMT
 recorded_with: VCR 6.1.0

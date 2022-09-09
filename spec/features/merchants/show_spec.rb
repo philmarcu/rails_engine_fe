@@ -13,7 +13,12 @@ RSpec.describe 'Merchant Show page', :vcr do
 
       within "#item-#{i.id}" do
         expect(page).to have_content("#{i.name}")
+        click_link "#{i.name}"
       end
+      
+      expect(page).to have_current_path(api_v1_item_path(i.id))
+      expect(page).to have_content("#{i.description}")
+      expect(page).to have_content("#{i.unit_price}")
     end
   end
 end
