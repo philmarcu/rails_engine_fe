@@ -18,4 +18,15 @@ RSpec.describe 'MerchantsFacade', :vcr do
       expect(merchant.id).to eq(1)
     end
   end
+
+  describe 'single merchants items' do
+    it 'retreives a single merchants items' do
+      items = MerchantsFacade.merchant_items(1)
+      item = items.first
+
+      expect(items).to be_a Array
+      expect(item).to be_a Item
+      expect(item.name).to be_a String
+    end
+  end
 end
